@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.protugafm" name="Protuga FM" version="1.0.0" provider-name="Morgado">
+    <requires>
+        <import addon="xbmc.python" version="2.20.0" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+    	<source>https://github.com/rafaellmorgado/protugafm.git</source>
+        <summary lang="pt">Rádio Protuga FM - A Tua Estação Digital</summary>
+        <license>GNU General Public License, v3</license>
+        <description lang="pt">From Portugal to the World, Protuga FM is your Radio Station</description>
+        <platform>all</platform>
+        <language>pt</language>
+    </extension>
+</addon>
