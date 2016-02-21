@@ -52,6 +52,6 @@ class StreamPlayer:
         endOfDirectory(int(handle))
 
 if __name__ == '__main__':
-    protugafm = StreamPlayer(PROTUGA_FM)
+    protugafm = StreamPlayer(PROTUGAFM_STREAM)
     protugafm.buildIndex()
     protugafm.run(argv[1])
