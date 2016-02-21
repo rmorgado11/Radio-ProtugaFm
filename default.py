@@ -30,7 +30,7 @@ import xbmcaddon
 from xbmcgui import Dialog, ListItem
 from xbmcplugin import addDirectoryItem, endOfDirectory
 
-PROTUGAFM_STREAM = 'icyx://62.210.203.78:8098/stream'
+PROTUGAFM_STREAM = 'http://wmp.protugafm.com.pt'
 
 class StreamPlayer:
 
